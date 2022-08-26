@@ -21,3 +21,27 @@ p {
     font-family: Open Sans;
     font-size: 14px;
 }
+
+.experience-content {
+    display: flex;
+}
+
+.experience-content__company-info {
+    width: 120px;
+    margin: 0 0 20px 30px;
+}
+
+.experience-content__h3 {
+    margin: 0 0 5px 0;
+    font-family: Open Sans;
+    font-size: 16px;
+}
+
+.experience-content__span {
+    font-size: 16px;
+    color: #667081;
+}
+
+.experience-content__p {
+    margin: 0;
+}
