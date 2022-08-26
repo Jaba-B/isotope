@@ -45,3 +45,32 @@ p {
 .experience-content__p {
     margin: 0;
 }
+
+.feedback {
+    margin-bottom: 40px;
+}
+
+.feedbacks-content {
+    height: 50px;
+    display: flex;
+    align-items: center;
+    margin:0 0 0 30px;
+}
+
+.feedback-p {
+    margin-bottom: 35px;
+    background-color: #EEEEEE;
+}
+
+.feedbacks-avatar {
+    border-radius: 50%;
+}
+
+.feedbacks-span {
+    margin: 0 5px 0 20px;
+}
+
+.feedbacks-a {
+    text-decoration: none;
+    color: #26C17E;
+}
