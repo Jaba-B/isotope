@@ -1,0 +1,65 @@
+@import url('https://fonts.googleapis.com/css?family=Open+Sans');
+
+body, html {
+    height: 100%;
+    margin: 0;
+}
+
+.home-page {
+    background: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url('../images/home-background.png');
+    height: 100vh;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.content {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: auto;
+    height: auto;
+    padding-top: 15%;
+}
+
+.home-page__h1 {
+    color: white;
+    font-family: Open Sans;
+    font-weight: bold;
+    font-size: 45px;
+    margin: 10px 0px;
+    line-height: 54px;
+}
+
+.home-page__h2 {
+    color: white;
+    font-family: Open Sans;
+    font-weight: lighter;
+    margin: 0px 0px 10px 0px;
+}
+
+p {
+    color: #D3D3D3;
+    font-family: Open Sans;
+    margin: 0px 0px;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 21px;
+}
+
+.home-page__btn {
+    margin-top: 15px;
+    height: 40px;
+    width: 117px;
+    background-color: #222935;
+    color: white;
+    font-family: Open Sans;
+    font-size: 16px;
+    border-radius: 6px;
+    border: 0px;
+}
+
+.home-page__btn:hover {
+    background-color: #26C17E;
+    cursor: pointer;
+}
