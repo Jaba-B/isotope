@@ -2,7 +2,13 @@ import Box from '../components/Box';
 import Button from '../components/Button';
 import Experience from '../components/Experience';
 import Feedbacks from '../components/Feedbacks';
+import Contacts from '../components/Contacts';
+import phone from '../assets/images/phone.png';
 import avatar from '../assets/images/feedback-avatar.jpg';
+import mail from '../assets/images/mail.png';
+import twitter from '../assets/images/twitter.png';
+import fb from '../assets/images/fb.png';
+import skype from '../assets/images/skype.png';
 import '../assets/styles/innerPage.css';
 import '../index.css';
 
@@ -14,6 +20,14 @@ function Inner() {
         <div>
             <Box title='About me' content={text} h2className='inner-page__title' pclassName='inner-page__p'></Box>
             <Experience title='Experience' data={data}/>
+            <section>
+                <h2 className='inner-page__title'>Contacts</h2>
+                <Contacts icon={phone} contact={'500 342 242'} />
+                <Contacts icon={mail} contact={'office@kamsolutions.pl'} />
+                <Contacts icon={twitter} name={'Twitter'} contact={'office@kamsolutions.pl'} />
+                <Contacts icon={fb} name={'Facebook'} contact={'https://www.facebook.com/facebook' } />
+                <Contacts icon={skype} name={'Skype'} contact={'kamsolutions.pl'} />
+            </section>
             <section>
                 <h2 className='inner-page__title'>Feedbacks</h2>
                 <Feedbacks url={avatar} nameAndPosition={'Martin Friman Programmer,'} webSite={'somesite.com'} text={feedbackText}/>

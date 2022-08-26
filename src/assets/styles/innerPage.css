@@ -74,3 +74,34 @@ p {
     text-decoration: none;
     color: #26C17E;
 }
+
+.contacts {
+    display: flex;
+    height: 60px;
+    margin: -15px 0 10px 30px;
+    align-items: center;
+}
+
+.contacts-icon {
+    margin-right: 22px;
+}
+
+.contacts__h3 {
+    font-family: Open Sans;
+    font-size: 15px;
+    margin: 0;
+    line-height: 19px;
+}
+
+
+.contacts-a {
+    font-family: Open Sans;
+    text-decoration: none;
+    color: black;
+    font-size: 14px;
+}
+
+.contacts-a:hover {
+    text-decoration: underline;
+    cursor: pointer;
+}
