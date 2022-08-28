@@ -194,6 +194,49 @@ p {
 .toggle {
     display: none;
 }
+
+.education-container {
+    display: flex;
+    margin: 0 30px 10px 30px;
+}
+
+.educaion-timeline {
+    display: flex;
+    flex-direction: column;
+    margin-right: 30px;
+}
+
+.education-span {
+    margin: 0 0 5px 0;
+    font-family: Open Sans;
+    color: black;
+    font-size: 16px;
+    font-weight: bold;
+}
+
+.education-greenline {
+    width: 5px;
+    background-color: #26C17E;
+    height: 100%;
+    margin-left: 15px;
+}
+
+.education-info {
+    background-color: #EEEEEE;
+}
+
+.education-title {
+    margin: 10px 0px 0px 10px;
+    font-family: Open Sans;
+    color: black;
+    font-size: 16px;
+    font-weight: bold;
+}
+
+.education-p {
+    margin: 10px 0 10px 10px
+}
+
 @media only screen and (max-width: 600px) {
     .nav-panel {
         width: 60px;
