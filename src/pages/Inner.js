@@ -1,6 +1,7 @@
 import Box from '../components/Box';
 import Button from '../components/Button';
 import Experience from '../components/Experience';
+import Skills from '../components/Skills';
 import Education from '../components/Education';
 import Feedbacks from '../components/Feedbacks';
 import Contacts from '../components/Contacts';
@@ -51,6 +52,7 @@ function Inner() {
                 <Box title='About me' content={text} h2className='inner-page__title margin-correction' pclassName='inner-page__p'></Box>
                 <Education title='Education' data={educationData}/>
                 <Experience title='Experience' data={data}/>
+                <Skills width='70px'/>
                 <section>
                     <h2 className='inner-page__title'>Contacts</h2>
                     <Contacts icon={phone} contact={'500 342 242'} />

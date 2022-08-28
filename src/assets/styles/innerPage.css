@@ -237,6 +237,62 @@ p {
     margin: 10px 0 10px 10px
 }
 
+.skills {
+    height: 30px;
+    background-color: #26C17E;
+}
+
+.skill {
+    height: 30px;
+    background-color: #26C17E;
+    margin: 0 30px 5px 30px;
+    display: flex;
+    align-items: center;
+}
+
+.skills-span {
+    font-family: Open Sans;
+    font-size: 14px;
+    color: white;
+    margin-left: 15px;
+}
+
+.skills-level-container {
+    margin: 30px 30px 0 30px;
+}
+
+.level {
+    height: 3px;
+    background-color: #667081;
+}
+
+.skills-level-span-container {
+    display: flex;
+    justify-content: space-between;
+}
+
+.skills-level-span {
+    color: #667081;
+    font-family: Open Sans;
+    font-size: 12px;
+}
+
+.css {
+    width: 60%;
+}
+
+.jquery {
+    width: 55%;
+}
+
+.php {
+    width: 40%;
+}
+
+.laravel {
+    width: 10%;
+}
+
 @media only screen and (max-width: 600px) {
     .nav-panel {
         width: 60px;
