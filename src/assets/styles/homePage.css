@@ -47,6 +47,10 @@ p {
     line-height: 21px;
 }
 
+.home-page__p {
+    color: white;
+}
+
 .home-page__btn {
     margin-top: 15px;
     height: 40px;
@@ -57,6 +61,11 @@ p {
     font-size: 16px;
     border-radius: 6px;
     border: 0px;
+}
+
+.button-link {
+    text-decoration: none;
+    color: white;
 }
 
 .home-page__btn:hover {
