@@ -123,6 +123,7 @@ p {
     position: fixed;
     top: 0px;
     left: 0px;
+    transition: 0.3s;
 }
 
 .nav-panel__avatar {
@@ -403,6 +404,7 @@ p {
 @media only screen and (max-width: 600px) {
     .nav-panel {
         width: 60px;
+        transition: 0.5s;
     }
 
     .nav-panel__li-a {
@@ -416,6 +418,7 @@ p {
     }
     .inner-page__info {
         margin-left: -170px;
+        transition: 0.5s;
     }
     .nav-panel__toggle-btn {
         margin-left: -23px;
