@@ -6,6 +6,7 @@ import Education from '../components/Education';
 import Feedbacks from '../components/Feedbacks';
 import Contacts from '../components/Contacts';
 import NavPanel from '../components/NavPanel';
+import Portfolio from '../components/Portfolio';
 import phone from '../assets/images/phone.png';
 import avatar from '../assets/images/feedback-avatar.jpg';
 import mail from '../assets/images/mail.png';
@@ -53,6 +54,10 @@ function Inner() {
                 <Education title='Education' data={educationData}/>
                 <Experience title='Experience' data={data}/>
                 <Skills width='70px'/>
+                <section>
+                    <h2 className='inner-page__title'>Portfolio</h2>
+                    <Portfolio />
+                </section>
                 <section>
                     <h2 className='inner-page__title'>Contacts</h2>
                     <Contacts icon={phone} contact={'500 342 242'} />
