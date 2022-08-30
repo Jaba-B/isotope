@@ -11,7 +11,7 @@ body, html {
 
 .inner-page__info {
     position: absolute;
-    top: 0px;
+    top: 50px;
     left: 250px;
 }
 
@@ -176,7 +176,8 @@ p {
     border-radius: 5px;
     background-color: #222935;
     border: 0px;
-    margin: 10px 0 0px -5px;
+    margin: -30px 0 0px -5px;
+    position: fixed;
 }
 
 .nav-panel__toggle-btn-img {
@@ -360,6 +361,45 @@ p {
     margin-left: 30px;
 }
 
+.back-arrow {
+    background-color: #222935;
+}
+
+.back-arrow-a {
+    background-color: #222935;
+    color: #FFFFFF;
+    border: none;
+    width: 90px;
+    cursor: pointer;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 285px;
+    margin-left: 50px;
+    text-decoration: none;
+}
+
+.back-arrow-a__span {
+    font-family: Open Sans;
+    margin: 0 0 0px 8px;
+}
+
+.up-arrow__a {
+    width: 30px;
+    height: 30px;
+    background-color: black;
+    float: right;
+    border-radius: 5px;
+    margin: -30px 30px 0px 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+}
+
+.up-arrow {
+    background-color: #222935;
+}
 @media only screen and (max-width: 600px) {
     .nav-panel {
         width: 60px;
@@ -379,5 +419,18 @@ p {
     }
     .nav-panel__toggle-btn {
         margin-left: -23px;
+    }
+    .back-arrow{
+        background-color: #26C17E;
+    }
+    .back-arrow-a{
+        width: 40px;
+        height: 30px;
+        background-color: #26C17E;
+        margin-left: 8px;
+        border-radius: 5px;
+    }
+    .back-arrow-a__span {
+        display: none;
     }
 }

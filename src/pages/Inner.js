@@ -14,6 +14,7 @@ import twitter from '../assets/images/twitter.png';
 import fb from '../assets/images/fb.png';
 import skype from '../assets/images/skype.png';
 import btn from '../assets/images/btn.png';
+import upArrow from '../assets/images/uparrow.png'
 import '../assets/styles/innerPage.css';
 import '../index.css';
 
@@ -71,6 +72,7 @@ function Inner() {
                     <Feedbacks url={avatar} nameAndPosition={'Martin Friman Programmer,'} webSite={'somesite.com'} text={feedbackText}/>
                     <Feedbacks url={avatar} nameAndPosition={'Martin Friman Programmer,'} webSite={'somesite.com'} text={feedbackText}/>
                 </section>
+                <a className='up-arrow__a' href='a'><img src={upArrow} width={13} heigt={8} className='up-arrow' alt='up arroa icon'/></a>
             </div>
         </div>
 

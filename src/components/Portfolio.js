@@ -2,19 +2,38 @@ import UI from '../assets/images/card_1.jpg';
 import Code from '../assets/images/card_3.png';
 import $ from 'jquery';
 import isotope from 'isotope-layout';
-import jQueryBridget from 'jquery-bridget'
+import jQueryBridget from 'jquery-bridget';
+import React, { useEffect } from 'react';
 
 function Portfolio(props) {
-    jQueryBridget( 'isotope', isotope, $ );
+    // setTimeout(() => {
+    //     $grid.isotope('layout')
+    // }, 100);
 
-    let $grid = $('.portfolio-items').isotope({
-        // options
-    });
-      // filter items on button click
-      $('.portfolio-menu ul').on( 'click', 'li', function() {
-        let filterValue = $(this).attr('data-filter');
-        window.$grid.isotope({ filter: filterValue });
-    });
+        // jQueryBridget( 'isotope', isotope, $ );
+        // let $grid = $('.portfolio-items').isotope({
+        //     // options
+        // });
+        //   // filter items on button click
+        //   $('.portfolio-menu ul').on( 'click', 'li', function() {
+        //     let filterValue = $(this).attr('data-filter');
+        //     window.$grid.isotope({ filter: filterValue });
+        // });
+
+        useEffect(() => {
+            const timer = setTimeout(() => {
+                jQueryBridget( 'isotope', isotope, $ );
+                let $grid = $('.portfolio-items').isotope({
+                    // options
+                });
+                  // filter items on button click
+                  $('.portfolio-menu ul').on( 'click', 'li', function() {
+                    let filterValue = $(this).attr('data-filter');
+                    window.$grid.isotope({ filter: filterValue });
+                });
+            }, 1000);
+            return () => clearTimeout(timer);
+          }, []);
 
     return (
         <div className="portfolio-container">

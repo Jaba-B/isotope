@@ -7,6 +7,7 @@ import skills from '../assets/images/Skills.png';
 import portfolio from '../assets/images/Portfolio.png';
 import contacts from '../assets/images/contacts.png';
 import feedbacks from '../assets/images/Feedbacks.png';
+import backArrow from '../assets/images/backarrow.png'
 import btn from '../assets/images/btn.png';
 
 function NavPanel() {
@@ -23,6 +24,7 @@ function NavPanel() {
                 <li className='nav-panle__li'><a className='nav-panel__li-icon' href='a'><img src={contacts} alt='contacts icon' height={14} width={14}/></a><a className='nav-panel__a' href='a' className='nav-panel__li-a'>Contacts</a></li>
                 <li className='nav-panle__li'><a className='nav-panel__li-icon' href='a'><img src={feedbacks} alt='feedbacks icon' height={14} width={14}/></a><a className='nav-panel__a' href='a' className='nav-panel__li-a'>Feedbacks</a></li>
             </ul>
+            <a className='back-arrow-a' href='a'><img src={backArrow} alt='back arrow icon' className='back-arrow'/><span className='back-arrow-a__span'>Go back</span></a>
         </div>
     )
 }
