@@ -14,10 +14,10 @@ import { Link } from "react-router-dom";
 
 function NavPanel() {
     const scrollToTop = () => window.scrollTo({ top: 0, behavior: "smooth"})
-    const scrollToEducation = () => window.scrollTo({ top: 320, behavior: "smooth"})
-    const scrollToExperience = () => window.scrollTo({ top: 745, behavior: "smooth"})
-    const scrollToSkills = () => window.scrollTo({ top: 970, behavior: "smooth"})
-    const scrollToPortfolio = () => window.scrollTo({ top: 1300, behavior: "smooth"})
+    const scrollToEducation = () => window.scrollTo({ top: 250, behavior: "smooth"})
+    const scrollToExperience = () => window.scrollTo({ top: 630, behavior: "smooth"})
+    const scrollToSkills = () => window.scrollTo({ top: 870, behavior: "smooth"})
+    const scrollToPortfolio = () => window.scrollTo({ top: 1200, behavior: "smooth"})
     const scrollToContacts = () => window.scrollTo({ top: 2100, behavior: "smooth"})
     const scrollToFeedbacks = () => window.scrollTo({ top: 2100, behavior: "smooth"})
     return (
